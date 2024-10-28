@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "B站内容总结器",
+  "version": "1.0",
+  "description": "提取B站视频字幕并生成内容总结",
+  "permissions": [
+    "activeTab", 
+    "https://www.kedou.life/",
+    "http://10.100.4.33:7002/"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [
+    "marked.min.js"
+  ]
+}
