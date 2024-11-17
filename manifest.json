@@ -12,6 +12,8 @@
     "default_popup": "popup.html"
   },
   "web_accessible_resources": [
-    "marked.min.js"
+    "marked.min.js",
+    "jsencrypt.min.js",
+    "crypto-js.min.js"
   ]
 }
